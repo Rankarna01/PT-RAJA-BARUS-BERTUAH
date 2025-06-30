@@ -24,7 +24,7 @@ class AdminUserSeeder extends Seeder
             // 2. Buat user admin
             // Menggunakan firstOrCreate untuk menghindari duplikat jika seeder dijalankan berkali-kali
             $adminUser = User::firstOrCreate(
-                ['email' => 'admin@travel.com'], // Kunci untuk mencari
+            ['email' => 'admin@travel.com'], // Kunci untuk mencari
                 [
                     'name' => 'Administrator',
                     'password' => Hash::make('admin123'), // Ganti 'password' dengan password yang aman

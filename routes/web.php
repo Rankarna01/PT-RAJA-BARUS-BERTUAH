@@ -21,6 +21,7 @@ use App\Http\Controllers\Admin\LaporanController;
 
 // --- Route Umum & Autentikasi ---
 Route::get('/', [LandingPageController::class, 'index'])->name('landing');
+Route::get('/pesan-tiket', [LandingPageController::class, 'showRutePerjalanan'])->name('rutePerjalanan');
 
 // Menjadi seperti ini
 // --- GRUP ROUTE UNTUK PELANGGAN YANG SUDAH LOGIN ---

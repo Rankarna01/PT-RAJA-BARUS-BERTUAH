@@ -35,7 +35,7 @@
               <div class="hero-buttons">
                <a href="{{ route('landing') }}" class="btn btn-primary me-0 me-sm-2 mx-1">Pesan Sekarang</a>
 
-                <a href="#" class="btn btn-link mt-2 mt-sm-0 glightbox">
+                <a href="{{ route('login') }}" class="btn btn-link mt-2 mt-sm-0 glightbox">
                   <i class="bi bi-calendar me-1"></i>
                   Cek Jadwal & Tarif
                 </a>

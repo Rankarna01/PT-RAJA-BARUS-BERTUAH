@@ -17,7 +17,7 @@
                     <li class="nav-item"><a class="nav-link {{ request()->routeIs('home') ? 'active' : '' }}" href="{{ route('home') }}">Home</a></li>
 
                     {{-- Pesan Tiket akan aktif selama alur pemesanan --}}
-                    <li class="nav-item"><a class="nav-link {{ request()->routeIs('landing', 'pemesanan.cari', 'pemesanan.pilihKursi', 'pemesanan.proses') ? 'active' : '' }}" href="{{ route('landing') }}">Pesan Tiket</a></li>
+                    <li class="nav-item"><a class="nav-link {{ request()->routeIs('landing', 'pemesanan.cari', 'pemesanan.pilihKursi', 'pemesanan.proses') ? 'active' : '' }}" href="{{ route('rutePerjalanan') }}">Pesan Tiket</a></li>
                     
                     {{-- Menu statis, belum ada route --}}
                     

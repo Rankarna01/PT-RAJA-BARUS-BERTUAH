@@ -1,6 +1,5 @@
 @extends('layouts.app')
 @extends('pelanggan.home')
-
 @section('content')
 <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
   <div class="container">
@@ -74,6 +73,6 @@
 </div>
 
 <footer class="text-center py-4 mt-5 text-muted">
-    <p>Copyright &copy; {{ date('Y') }} TravelGo</p>
+    <p>Copyright &copy; {{ date('Y') }} PT RAJA BARUS BERTUAH</p>
 </footer>
 @endsection
